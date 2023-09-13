@@ -20,7 +20,7 @@
   font-weight: bold;
 }
 
-.movie {
+.movies {
   width: 80%;
   display: grid;
   grid-template-columns: repeat(2, minmax(450px, 1fr));

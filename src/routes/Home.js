@@ -22,13 +22,14 @@ function Home() {
           <span>Loading...</span>
         </div>
       ) : (
-        <div className={styles.movie}>
+        <div className={styles.movies}>
           {movies.map((movie) => (
             <Movie
               key={movie.id}
               id={movie.id}
               coverImg={movie.medium_cover_image}
               title={movie.title}
+              year={movie.year}
               summary={movie.summary}
               genres={movie.genres}
             />
