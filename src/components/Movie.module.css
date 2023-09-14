@@ -27,6 +27,10 @@
   color: inherit;
 }
 
+.movie_title a:hover {
+  text-decoration: underline;
+}
+
 .movie_genres {
   list-style: none;
   display: flex;
