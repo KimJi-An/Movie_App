@@ -3,6 +3,7 @@
 .container {
   display: flex;
   justify-content: center;
+  padding: 50px;
 }
 
 .loader {
@@ -24,5 +25,5 @@
   width: 80%;
   display: grid;
   grid-template-columns: repeat(2, minmax(450px, 1fr));
-  gap: 20px;
+  gap: 50px;
 }
